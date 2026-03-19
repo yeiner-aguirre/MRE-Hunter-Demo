@@ -1,11 +1,11 @@
 # MRE Hunter Premium Demo
 
-Landing page moderna inspirada en la experiencia visual del sitio oficial de **MRE Hunter**, desarrollada como prueba técnica con una propuesta más sólida, elegante y premium.  
+Landing page moderna inspirada en la experiencia visual del sitio oficial de **MRE Hunter**, desarrollada como una propuesta más sólida, elegante y premium.  
 Este proyecto fue creado con mucho amor, dedicación y atención al detalle por **Yeiner Estiven Aguirre Quirama**, **desarrollador web full-stack**.
 
 ## Descripción
 
-Esta demo busca recrear y elevar la esencia visual de la marca MRE Hunter, combinando una interfaz moderna, una estructura escalable y una experiencia de usuario más refinada.  
+Esta demo busca recrear y elevar la esencia visual de la marca MRE Hunter, combinando una interfaz moderna, una estructura escalable y una experiencia de usuario más refinada.  **Aclaro que no es el sitio oficial de MRE Hunter, todos sus derechos pertenecen a MRE Hunter** 
 El resultado es una landing page construida con tecnologías actuales del ecosistema frontend, enfocada en rendimiento, mantenibilidad y estética.
 
 ## Stack
