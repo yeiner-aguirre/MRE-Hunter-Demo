@@ -10,7 +10,7 @@ const actions = [
     tone: 'bg-[#1fb15a]',
   },
   {
-    label: '¿Cómo puedo ayudarte?',
+    label: 'Como puedo ayudarte?',
     to: '/contacto',
     icon: Send,
     tone: 'bg-[#2ca5e0]',
@@ -19,7 +19,7 @@ const actions = [
 
 export default function FloatingSupport() {
   return (
-    <div className="fixed bottom-4 right-4 z-30 flex flex-col items-end gap-3 sm:bottom-6 sm:right-6">
+    <div className="fixed bottom-4 right-4 z-30 flex flex-col items-end gap-2.5 sm:bottom-6 sm:right-6">
       {actions.map((action) => {
         const Icon = action.icon
 
@@ -28,7 +28,7 @@ export default function FloatingSupport() {
             key={action.label}
             to={action.to}
             className={cn(
-              'inline-flex items-center gap-3 rounded-full px-4 py-3 text-sm font-semibold text-white shadow-[0_20px_40px_rgba(0,0,0,0.3)] transition hover:scale-[1.02]',
+              'inline-flex items-center gap-3 rounded-full px-3.5 py-2.5 text-sm font-semibold text-white shadow-[0_20px_40px_rgba(0,0,0,0.3)] transition hover:scale-[1.02] sm:px-4 sm:py-3',
               action.tone,
             )}
           >

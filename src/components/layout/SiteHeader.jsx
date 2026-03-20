@@ -71,8 +71,8 @@ export default function SiteHeader() {
   return (
     <>
       <header className="sticky top-0 z-40 border-b border-white/10 bg-black/80 backdrop-blur-xl">
-        <div className="container-shell flex h-20 items-center justify-between gap-6">
-          <Link to="/" className="w-40 shrink-0 sm:w-48">
+        <div className="container-shell flex h-[4.75rem] items-center justify-between gap-6">
+          <Link to="/" className="w-36 shrink-0 sm:w-44">
             <img src="/images/brand/logo-white.png" alt="MRE Hunter" />
           </Link>
 
@@ -106,7 +106,7 @@ export default function SiteHeader() {
             type="button"
             onClick={() => setIsMenuOpen(true)}
             className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white lg:hidden"
-            aria-label="Abrir menú"
+            aria-label="Abrir menu"
           >
             <Menu size={18} />
           </button>

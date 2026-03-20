@@ -33,13 +33,13 @@ export default function MobileMenu({ items, open, onClose }) {
             type="button"
             onClick={handleClose}
             className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white"
-            aria-label="Cerrar menú"
+            aria-label="Cerrar menu"
           >
             <X size={18} />
           </button>
         </div>
 
-        <nav className="mt-8 flex flex-col gap-3">
+        <nav className="mt-6 flex flex-col gap-3">
           {items.map((item) => {
             if (!item.items) {
               return (
@@ -118,7 +118,7 @@ export default function MobileMenu({ items, open, onClose }) {
           })}
         </nav>
 
-        <div className="mt-8 grid gap-3 sm:grid-cols-2">
+        <div className="mt-6 grid gap-3 sm:grid-cols-2">
           {secondaryActions.map((action) => (
             <Link
               key={action.to}

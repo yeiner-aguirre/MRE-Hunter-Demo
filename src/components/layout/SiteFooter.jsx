@@ -12,19 +12,18 @@ const socialIconMap = {
 export default function SiteFooter() {
   return (
     <footer className="relative border-t border-white/10 bg-black/70">
-      <div className="container-shell py-10">
-        <div className="surface-card overflow-hidden p-6 sm:p-8">
-          <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
+      <div className="container-shell py-8">
+        <div className="surface-card overflow-hidden p-5 sm:p-7">
+          <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
             <div className="max-w-xl">
               <img
                 src="/images/brand/logo-white.png"
                 alt="MRE Hunter"
-                className="w-44"
+                className="w-40"
               />
               <p className="mt-4 max-w-lg text-sm leading-7 text-white/65">
-                Tecnología satelital diseñada para proteger activos con una
-                experiencia digital mucho más elegante, clara y preparada para
-                crecer.
+                Tecnologia satelital pensada para cuidar vehiculos, dar seguimiento
+                en tiempo real y transmitir confianza desde el primer vistazo.
               </p>
             </div>
 
@@ -32,11 +31,11 @@ export default function SiteFooter() {
               to="/pagos/mensualidad"
               className={buttonVariants({ variant: 'primary' })}
             >
-              Paga tu mensualidad aquí
+              Paga tu mensualidad aqui
             </Link>
           </div>
 
-          <div className="mt-8 grid gap-4 border-t border-white/10 pt-8 text-sm text-white/65 md:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-6 grid gap-3 border-t border-white/10 pt-6 text-sm text-white/65 md:grid-cols-2 lg:grid-cols-4">
             {footerLinks.map((link) => (
               <Link
                 key={link.to}
@@ -48,7 +47,7 @@ export default function SiteFooter() {
             ))}
           </div>
 
-          <div className="mt-8 flex flex-col gap-6 border-t border-white/10 pt-8 sm:flex-row sm:items-center sm:justify-between">
+          <div className="mt-6 flex flex-col gap-5 border-t border-white/10 pt-6 sm:flex-row sm:items-center sm:justify-between">
             <div className="flex items-center gap-3">
               {socialLinks.map((item) => {
                 const Icon = socialIconMap[item.label]
@@ -69,7 +68,7 @@ export default function SiteFooter() {
             </div>
 
             <p className="text-sm text-white/55">
-              © {new Date().getFullYear()} MRE Hunter S.A.S.
+              Copyright {new Date().getFullYear()} MRE Hunter S.A.S.
             </p>
           </div>
         </div>

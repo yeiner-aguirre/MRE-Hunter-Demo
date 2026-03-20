@@ -5,7 +5,7 @@ import { paymentHighlights } from '@/data/site-content'
 
 export default function PaymentSection() {
   return (
-    <section className="relative pb-16 pt-10 sm:pb-[4.5rem] sm:pt-14 lg:pb-20 lg:pt-16">
+    <section className="relative pb-14 pt-10 sm:pb-16 sm:pt-14 lg:pb-16 lg:pt-16">
       <div className="container-shell">
         <div className="surface-card overflow-hidden p-6 sm:p-8 lg:p-10">
           <div className="grid gap-6 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:items-center">
